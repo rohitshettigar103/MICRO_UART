@@ -1,3 +1,4 @@
+`include "inc.h"
 module transmitter(clk, rst, start, inp, op_done, op_data, op_active);
     input [`WORD_LEN-1:0] inp;
     input clk, start, rst;

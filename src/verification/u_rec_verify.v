@@ -1,3 +1,4 @@
+`include "inc.h"
 module syncronizer (clk,rst,inp,op);
 input clk,rst,inp;
 output reg op;
